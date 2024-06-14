@@ -44,6 +44,12 @@ namespace study2
             MeneTableGenerator generator = new MeneTableGenerator(menus);
             generator.GenerateTable();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            
+
+        }
     }
 
 }
