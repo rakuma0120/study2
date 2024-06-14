@@ -37,6 +37,8 @@ namespace study2
                 new DrinkMenu("メロンソーダ", "爽やかな甘さが楽しめるメロンソーダです", 300, true),
                 new DrinkMenu("コーラ", "コーラです", 200, true),
                 new DrinkMenu("お茶", "おーいお茶", 150, true),
+                new MainMenu("黒毛和牛ステーキ", "ジューシーで柔らかなステーキです。", 3000, false),
+                new MainMenu("ベジタブルカレー", "野菜をたっぷりと使った、スパイシーなカレーです。", 2400, true),
             };
 
             MeneTableGenerator generator = new MeneTableGenerator(menus);
