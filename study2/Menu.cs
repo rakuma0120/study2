@@ -46,6 +46,11 @@ namespace study2
             const double taxRate = 0.1; // 消費税率10%
             return (int)Math.Round(Price * (1 + taxRate));
         }
+        
+        //抽象メソッド
+        public abstract string GetNote();
+
+
 
 
 

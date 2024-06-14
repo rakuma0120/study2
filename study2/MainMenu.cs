@@ -21,5 +21,10 @@ namespace study2
         {
             get { return isVegetarian; }
         }
+        public override string GetNote()
+        {
+            return IsVegetarian ? "(菜食)" : "";
+        }
+        
     }
 }

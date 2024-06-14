@@ -25,6 +25,7 @@ namespace study2
                 table += $"<td>{menu1.Name}</td>";
                 table += $"<td>{menu1.GetPriceWiheTax()}円</td>";
                 table += $"<td>{menu1.Description}</td>";
+                table += $"<td>{menu1.GetNote()}</td>";
                 table += "</tr>\n";
                 //※ +演算子で多数の文字列を連結させていくのは効率が悪いため、
                 //    本当はStringBuilderクラスを使った方が良いです。

@@ -25,6 +25,10 @@ namespace study2
             get { return isCold; }
 
         }
+        public override string GetNote()
+        {
+            return IsCold ? " (冷) " : "";
+        }
 
     }
 }
