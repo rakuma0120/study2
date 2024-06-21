@@ -8,18 +8,18 @@ namespace study2
 {
     public class MeneTableGenerator
     {
-        private Menu[] menus;
+        private Menu[] _menus;
 
-        public MeneTableGenerator(Menu[] menus)
+        public MeneTableGenerator(Menu[] test)
         {
-            this.menus = menus;
+            this._menus = test;
         }
 
         public string GenerateTable()
         {
             string table = "<table border='1'>";
             table += "<tr><th>メニュー名</th><th>価格(税込み)</th><th>説明</th></tr>\n";
-            foreach (Menu menu1 in menus)
+            foreach (Menu menu1 in _menus)
             {
                 table += "<tr>";
                 table += $"<td>{menu1.Name}</td>";

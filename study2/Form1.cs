@@ -47,7 +47,47 @@ namespace study2
 
         private void button4_Click(object sender, EventArgs e)
         {
-            
+
+            string str = Getstring(100);
+            Debug.WriteLine(str);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+        }
+
+        private string Getstring(int cnt)
+        {
+            Debug.WriteLine(cnt);
+
+            if (cnt < 10)
+            {
+                Printstring(cnt);
+                return "aiueo";
+            }
+            else
+            {
+                Printstring(cnt);
+                return "kakikukeko";
+            }
+
+
+
+        }
+
+        private void Printstring(int cnt)
+        {
+            string str;
+            if (cnt < 10)
+            {
+                str =  "test";
+            }
+            else
+            {
+                str = "test2";
+            }
+
+            Debug.WriteLine(str);
 
         }
     }
