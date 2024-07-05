@@ -33,6 +33,7 @@
             LB_ID = new Label();
             LB_PW = new Label();
             BTN_LOGIN = new Button();
+            BTN_Eye = new Button();
             SuspendLayout();
             // 
             // TXT_ID
@@ -46,6 +47,7 @@
             // 
             TXT_PW.Location = new Point(74, 41);
             TXT_PW.Name = "TXT_PW";
+            TXT_PW.PasswordChar = '*';
             TXT_PW.Size = new Size(206, 23);
             TXT_PW.TabIndex = 2;
             // 
@@ -77,11 +79,22 @@
             BTN_LOGIN.UseVisualStyleBackColor = true;
             BTN_LOGIN.Click += BTN_LOGIN_Click;
             // 
+            // BTN_Eye
+            // 
+            BTN_Eye.Location = new Point(286, 41);
+            BTN_Eye.Name = "BTN_Eye";
+            BTN_Eye.Size = new Size(25, 23);
+            BTN_Eye.TabIndex = 6;
+            BTN_Eye.Text = "\r\n";
+            BTN_Eye.UseVisualStyleBackColor = true;
+            BTN_Eye.Click += BTN_Eye_Click;
+            // 
             // LoginIC
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(329, 130);
+            Controls.Add(BTN_Eye);
             Controls.Add(BTN_LOGIN);
             Controls.Add(LB_PW);
             Controls.Add(LB_ID);
@@ -102,5 +115,6 @@
         private Label LB_ID;
         private Label LB_PW;
         private Button BTN_LOGIN;
+        private Button BTN_Eye;
     }
 }
