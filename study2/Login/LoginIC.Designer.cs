@@ -42,6 +42,7 @@
             TXT_ID.Name = "TXT_ID";
             TXT_ID.Size = new Size(206, 23);
             TXT_ID.TabIndex = 0;
+            TXT_ID.TextChanged += TXT_ID_TextChanged;
             // 
             // TXT_PW
             // 
