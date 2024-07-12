@@ -1,6 +1,6 @@
 ﻿namespace study2
 {
-    partial class Form2
+    partial class Form3
     {
         /// <summary>
         /// Required designer variable.
@@ -35,7 +35,9 @@
             textBox2 = new TextBox();
             label1 = new Label();
             label2 = new Label();
-            TNT_保存 = new Button();
+            Save_Button = new Button();
+            From_Button = new TextBox();
+            label3 = new Label();
             SuspendLayout();
             // 
             // textBox1
@@ -47,7 +49,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(161, 102);
+            textBox2.Location = new Point(161, 87);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(100, 23);
             textBox2.TabIndex = 1;
@@ -64,28 +66,46 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(105, 110);
+            label2.Location = new Point(105, 90);
             label2.Name = "label2";
             label2.Size = new Size(19, 15);
             label2.TabIndex = 3;
             label2.Text = "名";
             // 
-            // TNT_保存
+            // Save_Button
             // 
-            TNT_保存.Location = new Point(341, 102);
-            TNT_保存.Name = "TNT_保存";
-            TNT_保存.Size = new Size(44, 23);
-            TNT_保存.TabIndex = 4;
-            TNT_保存.Text = "保存";
-            TNT_保存.UseVisualStyleBackColor = true;
-            TNT_保存.Click += button1_Click;
+            Save_Button.Location = new Point(585, 137);
+            Save_Button.Name = "Save_Button";
+            Save_Button.Size = new Size(44, 23);
+            Save_Button.TabIndex = 4;
+            Save_Button.Text = "保存";
+            Save_Button.UseVisualStyleBackColor = true;
+            Save_Button.Click += button1_Click;
+            // 
+            // From_Button
+            // 
+            From_Button.Location = new Point(161, 134);
+            From_Button.Name = "From_Button";
+            From_Button.Size = new Size(222, 23);
+            From_Button.TabIndex = 6;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(105, 137);
+            label3.Name = "label3";
+            label3.Size = new Size(31, 15);
+            label3.TabIndex = 7;
+            label3.Text = "住所";
             // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(TNT_保存);
+            Controls.Add(label3);
+            Controls.Add(From_Button);
+            Controls.Add(Save_Button);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(textBox2);
@@ -103,6 +123,8 @@
         private TextBox textBox2;
         private Label label1;
         private Label label2;
-        private Button TNT_保存;
+        private Button Save_Button;
+        private TextBox From_Button;
+        private Label label3;
     }
 }

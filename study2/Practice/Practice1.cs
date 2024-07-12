@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using study2.test;
 
 namespace study2.Practice
 {
@@ -19,14 +20,14 @@ namespace study2.Practice
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var form2 = new Form2();
+            var form2 = new Form3();
             form2.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var form2 = new Form2();
-            form2.ShowDialog();
+            var form4 = new Form4();
+            form4.ShowDialog();
         }
     }
 }

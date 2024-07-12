@@ -1,5 +1,6 @@
 using study2.Login;
 using study2.Practice;
+using study2.test;
 
 namespace study2
 {
@@ -15,6 +16,7 @@ namespace study2
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Practice1());
+
         }
     }
 }

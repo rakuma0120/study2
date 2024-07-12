@@ -28,19 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            TNT_btn = new Button();
             button2 = new Button();
+            TNT_btn = new Button();
             SuspendLayout();
-            // 
-            // TNT_btn
-            // 
-            TNT_btn.Location = new Point(33, 21);
-            TNT_btn.Name = "TNT_btn";
-            TNT_btn.Size = new Size(75, 23);
-            TNT_btn.TabIndex = 0;
-            TNT_btn.Text = "ボタン";
-            TNT_btn.UseVisualStyleBackColor = true;
-            TNT_btn.Click += button1_Click;
             // 
             // button2
             // 
@@ -51,6 +41,16 @@
             button2.Text = "ボタン２";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
+            // 
+            // TNT_btn
+            // 
+            TNT_btn.Location = new Point(33, 21);
+            TNT_btn.Name = "TNT_btn";
+            TNT_btn.Size = new Size(75, 23);
+            TNT_btn.TabIndex = 0;
+            TNT_btn.Text = "ボタン";
+            TNT_btn.UseVisualStyleBackColor = true;
+            TNT_btn.Click += button1_Click;
             // 
             // Practice1
             // 
@@ -65,7 +65,7 @@
 
         #endregion
 
-        private Button TNT_btn;
         private Button button2;
+        private Button TNT_btn;
     }
 }
