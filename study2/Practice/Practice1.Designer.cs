@@ -28,19 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button2 = new Button();
+            TNT_btn2 = new Button();
             TNT_btn = new Button();
+            TNT_btn3 = new Button();
             SuspendLayout();
             // 
-            // button2
+            // TNT_btn2
             // 
-            button2.Location = new Point(33, 62);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 1;
-            button2.Text = "ボタン２";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            TNT_btn2.Location = new Point(33, 62);
+            TNT_btn2.Name = "TNT_btn2";
+            TNT_btn2.Size = new Size(75, 23);
+            TNT_btn2.TabIndex = 1;
+            TNT_btn2.Text = "ボタン２";
+            TNT_btn2.UseVisualStyleBackColor = true;
+            TNT_btn2.Click += button2_Click;
             // 
             // TNT_btn
             // 
@@ -52,12 +53,23 @@
             TNT_btn.UseVisualStyleBackColor = true;
             TNT_btn.Click += button1_Click;
             // 
+            // TNT_btn3
+            // 
+            TNT_btn3.Location = new Point(33, 103);
+            TNT_btn3.Name = "TNT_btn3";
+            TNT_btn3.Size = new Size(75, 23);
+            TNT_btn3.TabIndex = 2;
+            TNT_btn3.Text = "ボタン３";
+            TNT_btn3.UseVisualStyleBackColor = true;
+            TNT_btn3.Click += TNT_btn3_Click;
+            // 
             // Practice1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button2);
+            Controls.Add(TNT_btn3);
+            Controls.Add(TNT_btn2);
             Controls.Add(TNT_btn);
             Name = "Practice1";
             ResumeLayout(false);
@@ -65,7 +77,8 @@
 
         #endregion
 
-        private Button button2;
+        private Button TNT_btn2;
         private Button TNT_btn;
+        private Button TNT_btn3;
     }
 }

@@ -109,7 +109,6 @@
             Controls.Add(TXT_Pass);
             Controls.Add(TXT_Name);
             Name = "UserIC";
-            Text = "プロフィール";
             Load += UserIC_Load;
             ResumeLayout(false);
             PerformLayout();

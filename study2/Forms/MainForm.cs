@@ -21,6 +21,10 @@ namespace study2.Forms
             _user = user;
         }
 
+        public MainForm()
+        {
+        }
+
         private void MainForm_Load(object sender, EventArgs e)
         {
 

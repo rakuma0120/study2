@@ -29,5 +29,11 @@ namespace study2.Practice
             var form4 = new Form4();
             form4.ShowDialog();
         }
+
+        private void TNT_btn3_Click(object sender, EventArgs e)
+        {
+            var practice2 = new Practice2();
+            practice2.ShowDialog();
+        }
     }
 }

@@ -26,7 +26,16 @@ namespace study2.Forms
 
         private void 保存_Click(object sender, EventArgs e)
         {
+            DialogResult result = MessageBox.Show("保存しますか？", "確認", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                MessageBox.Show("保存しました");
 
+            }
+            else
+            {
+                MessageBox.Show("キャンセルしました");
+            }
         }
 
         private void UserIC_Load(object sender, EventArgs e)
