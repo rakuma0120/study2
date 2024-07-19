@@ -31,6 +31,7 @@
             TNT_btn2 = new Button();
             TNT_btn = new Button();
             TNT_btn3 = new Button();
+            TNT_btn4 = new Button();
             SuspendLayout();
             // 
             // TNT_btn2
@@ -63,11 +64,22 @@
             TNT_btn3.UseVisualStyleBackColor = true;
             TNT_btn3.Click += TNT_btn3_Click;
             // 
+            // TNT_btn4
+            // 
+            TNT_btn4.Location = new Point(33, 145);
+            TNT_btn4.Name = "TNT_btn4";
+            TNT_btn4.Size = new Size(75, 23);
+            TNT_btn4.TabIndex = 3;
+            TNT_btn4.Text = "ボタン4";
+            TNT_btn4.UseVisualStyleBackColor = true;
+            TNT_btn4.Click += TNT_btn4_Click;
+            // 
             // Practice1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(TNT_btn4);
             Controls.Add(TNT_btn3);
             Controls.Add(TNT_btn2);
             Controls.Add(TNT_btn);
@@ -80,5 +92,6 @@
         private Button TNT_btn2;
         private Button TNT_btn;
         private Button TNT_btn3;
+        private Button TNT_btn4;
     }
 }

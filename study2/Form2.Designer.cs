@@ -98,11 +98,11 @@
             label3.TabIndex = 7;
             label3.Text = "住所";
             // 
-            // Form2
+            // Form3
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1255, 181);
             Controls.Add(label3);
             Controls.Add(From_Button);
             Controls.Add(Save_Button);
@@ -110,7 +110,7 @@
             Controls.Add(label1);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
-            Name = "Form2";
+            Name = "Form3";
             ResumeLayout(false);
             PerformLayout();
         }

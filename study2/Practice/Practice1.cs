@@ -35,5 +35,11 @@ namespace study2.Practice
             var practice2 = new Practice2();
             practice2.ShowDialog();
         }
+
+        private void TNT_btn4_Click(object sender, EventArgs e)
+        {
+            var practice3 = new TNT_Practice3();
+            practice3.ShowDialog();
+        }
     }
 }
